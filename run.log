@@ -1,0 +1,19 @@
+2026-02-22 16:45:56,553 - INFO - Job started
+2026-02-22 16:45:56,554 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-22 16:45:56,554 - ERROR - Input CSV file not found.
+2026-02-22 16:53:48,965 - INFO - Job started
+2026-02-22 16:53:48,965 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-22 16:53:48,987 - INFO - Data loaded: 10000 rows
+2026-02-22 16:53:48,991 - INFO - Rolling mean calculated with window=5
+2026-02-22 16:53:48,992 - INFO - Signals generated
+2026-02-22 16:53:48,993 - INFO - Metrics: signal_rate=0.4927, rows_processed=10000
+2026-02-22 16:53:48,993 - INFO - Job completed successfully in 27ms
+2026-02-24 09:41:32,753 - INFO - Job started
+2026-02-24 09:41:32,754 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-24 09:41:32,764 - ERROR - Invalid CSV file format.
+2026-02-24 09:55:32,769 - INFO - Job started
+2026-02-24 09:55:32,770 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-02-24 09:55:32,776 - ERROR - Invalid CSV file format.
+{"version": "v1", "rows_processed": 10000, "metric": "signal_rate", "value": 0.6394, "latency_ms": 24, "seed": 42, "status": "success"}
+{"version": "v1", "rows_processed": 10000, "metric": "signal_rate", "value": 0.6394, "latency_ms": 22, "seed": 42, "status": "success"}
+{"version": "v1", "rows_processed": 10000, "metric": "signal_rate", "value": 0.499, "latency_ms": 127, "seed": 42, "status": "success"}
